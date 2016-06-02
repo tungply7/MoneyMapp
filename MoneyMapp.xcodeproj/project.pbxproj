@@ -8,13 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		460FE7641D00C27D0038EEB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FE7631D00C27D0038EEB5 /* AppDelegate.swift */; };
-		460FE7661D00C27D0038EEB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FE7651D00C27D0038EEB5 /* ViewController.swift */; };
 		460FE7691D00C27D0038EEB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460FE7671D00C27D0038EEB5 /* Main.storyboard */; };
 		460FE76C1D00C27D0038EEB5 /* MoneyMapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 460FE76A1D00C27D0038EEB5 /* MoneyMapp.xcdatamodeld */; };
 		460FE76E1D00C27D0038EEB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460FE76D1D00C27D0038EEB5 /* Assets.xcassets */; };
 		460FE7711D00C27D0038EEB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460FE76F1D00C27D0038EEB5 /* LaunchScreen.storyboard */; };
 		460FE77C1D00C27D0038EEB5 /* MoneyMappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FE77B1D00C27D0038EEB5 /* MoneyMappTests.swift */; };
 		460FE7871D00C27E0038EEB5 /* MoneyMappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FE7861D00C27E0038EEB5 /* MoneyMappUITests.swift */; };
+		460FE7961D00C2BD0038EEB5 /* Material.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FE7951D00C2BD0038EEB5 /* Material.swift */; };
+		460FE7981D00C2DA0038EEB5 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FE7971D00C2DA0038EEB5 /* CustomTextField.swift */; };
+		460FE79E1D00C33A0038EEB5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FE79D1D00C33A0038EEB5 /* MainViewController.swift */; };
+		460FE7A01D00C3510038EEB5 /* AddExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FE79F1D00C3510038EEB5 /* AddExpenseViewController.swift */; };
+		460FE7A21D00C3790038EEB5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FE7A11D00C3790038EEB5 /* SettingsViewController.swift */; };
+		460FE7A41D00C3BA0038EEB5 /* ExpenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FE7A31D00C3BA0038EEB5 /* ExpenseTableViewCell.swift */; };
+		460FE7A71D00C3E10038EEB5 /* AllowedCharsTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FE7A51D00C3E10038EEB5 /* AllowedCharsTextField.swift */; };
+		460FE7A81D00C3E10038EEB5 /* BannedCharsTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FE7A61D00C3E10038EEB5 /* BannedCharsTextField.swift */; };
+		460FE7AB1D00C48B0038EEB5 /* Expense+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FE7A91D00C48B0038EEB5 /* Expense+CoreDataProperties.swift */; };
+		460FE7AC1D00C48B0038EEB5 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FE7AA1D00C48B0038EEB5 /* Expense.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +46,6 @@
 /* Begin PBXFileReference section */
 		460FE7601D00C27D0038EEB5 /* MoneyMapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyMapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		460FE7631D00C27D0038EEB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		460FE7651D00C27D0038EEB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		460FE7681D00C27D0038EEB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		460FE76B1D00C27D0038EEB5 /* MoneyMapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoneyMapp.xcdatamodel; sourceTree = "<group>"; };
 		460FE76D1D00C27D0038EEB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +57,16 @@
 		460FE7821D00C27E0038EEB5 /* MoneyMappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyMappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		460FE7861D00C27E0038EEB5 /* MoneyMappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyMappUITests.swift; sourceTree = "<group>"; };
 		460FE7881D00C27E0038EEB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		460FE7951D00C2BD0038EEB5 /* Material.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Material.swift; sourceTree = "<group>"; };
+		460FE7971D00C2DA0038EEB5 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		460FE79D1D00C33A0038EEB5 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		460FE79F1D00C3510038EEB5 /* AddExpenseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddExpenseViewController.swift; sourceTree = "<group>"; };
+		460FE7A11D00C3790038EEB5 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		460FE7A31D00C3BA0038EEB5 /* ExpenseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseTableViewCell.swift; sourceTree = "<group>"; };
+		460FE7A51D00C3E10038EEB5 /* AllowedCharsTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllowedCharsTextField.swift; sourceTree = "<group>"; };
+		460FE7A61D00C3E10038EEB5 /* BannedCharsTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannedCharsTextField.swift; sourceTree = "<group>"; };
+		460FE7A91D00C48B0038EEB5 /* Expense+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Expense+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		460FE7AA1D00C48B0038EEB5 /* Expense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +117,11 @@
 		460FE7621D00C27D0038EEB5 /* MoneyMapp */ = {
 			isa = PBXGroup;
 			children = (
-				460FE7631D00C27D0038EEB5 /* AppDelegate.swift */,
-				460FE7651D00C27D0038EEB5 /* ViewController.swift */,
-				460FE7671D00C27D0038EEB5 /* Main.storyboard */,
-				460FE76D1D00C27D0038EEB5 /* Assets.xcassets */,
-				460FE76F1D00C27D0038EEB5 /* LaunchScreen.storyboard */,
-				460FE7721D00C27D0038EEB5 /* Info.plist */,
-				460FE76A1D00C27D0038EEB5 /* MoneyMapp.xcdatamodeld */,
+				460FE79C1D00C30C0038EEB5 /* Model */,
+				460FE79A1D00C2FF0038EEB5 /* View */,
+				460FE7991D00C2F30038EEB5 /* Controller */,
+				460FE7941D00C2A40038EEB5 /* MaterialDesign */,
+				460FE79B1D00C3050038EEB5 /* Supporting */,
 			);
 			path = MoneyMapp;
 			sourceTree = "<group>";
@@ -126,6 +142,57 @@
 				460FE7881D00C27E0038EEB5 /* Info.plist */,
 			);
 			path = MoneyMappUITests;
+			sourceTree = "<group>";
+		};
+		460FE7941D00C2A40038EEB5 /* MaterialDesign */ = {
+			isa = PBXGroup;
+			children = (
+				460FE7951D00C2BD0038EEB5 /* Material.swift */,
+				460FE7971D00C2DA0038EEB5 /* CustomTextField.swift */,
+			);
+			name = MaterialDesign;
+			sourceTree = "<group>";
+		};
+		460FE7991D00C2F30038EEB5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				460FE79D1D00C33A0038EEB5 /* MainViewController.swift */,
+				460FE7A11D00C3790038EEB5 /* SettingsViewController.swift */,
+				460FE79F1D00C3510038EEB5 /* AddExpenseViewController.swift */,
+				460FE7A31D00C3BA0038EEB5 /* ExpenseTableViewCell.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		460FE79A1D00C2FF0038EEB5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				460FE7671D00C27D0038EEB5 /* Main.storyboard */,
+				460FE76D1D00C27D0038EEB5 /* Assets.xcassets */,
+				460FE76F1D00C27D0038EEB5 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		460FE79B1D00C3050038EEB5 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				460FE7721D00C27D0038EEB5 /* Info.plist */,
+				460FE7631D00C27D0038EEB5 /* AppDelegate.swift */,
+				460FE7A51D00C3E10038EEB5 /* AllowedCharsTextField.swift */,
+				460FE7A61D00C3E10038EEB5 /* BannedCharsTextField.swift */,
+			);
+			name = Supporting;
+			sourceTree = "<group>";
+		};
+		460FE79C1D00C30C0038EEB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				460FE76A1D00C27D0038EEB5 /* MoneyMapp.xcdatamodeld */,
+				460FE7A91D00C48B0038EEB5 /* Expense+CoreDataProperties.swift */,
+				460FE7AA1D00C48B0038EEB5 /* Expense.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +263,7 @@
 				TargetAttributes = {
 					460FE75F1D00C27D0038EEB5 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 66728D7G65;
 					};
 					460FE7761D00C27D0038EEB5 = {
 						CreatedOnToolsVersion = 7.2;
@@ -259,9 +327,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				460FE7961D00C2BD0038EEB5 /* Material.swift in Sources */,
+				460FE7A81D00C3E10038EEB5 /* BannedCharsTextField.swift in Sources */,
 				460FE76C1D00C27D0038EEB5 /* MoneyMapp.xcdatamodeld in Sources */,
-				460FE7661D00C27D0038EEB5 /* ViewController.swift in Sources */,
+				460FE7A41D00C3BA0038EEB5 /* ExpenseTableViewCell.swift in Sources */,
+				460FE79E1D00C33A0038EEB5 /* MainViewController.swift in Sources */,
 				460FE7641D00C27D0038EEB5 /* AppDelegate.swift in Sources */,
+				460FE7981D00C2DA0038EEB5 /* CustomTextField.swift in Sources */,
+				460FE7AB1D00C48B0038EEB5 /* Expense+CoreDataProperties.swift in Sources */,
+				460FE7A01D00C3510038EEB5 /* AddExpenseViewController.swift in Sources */,
+				460FE7A71D00C3E10038EEB5 /* AllowedCharsTextField.swift in Sources */,
+				460FE7AC1D00C48B0038EEB5 /* Expense.swift in Sources */,
+				460FE7A21D00C3790038EEB5 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,9 +480,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MoneyMapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = TungLy.MoneyMapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TungLy.MoneyMapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -414,9 +493,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MoneyMapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = TungLy.MoneyMapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TungLy.MoneyMapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
