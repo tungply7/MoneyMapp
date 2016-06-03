@@ -110,8 +110,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         let headerView = UIView(frame: CGRectMake(0, 0, tableView.frame.width, 28.0))
         headerView.backgroundColor = UIColor.whiteColor()
         
-        let lineView = UIView(frame: CGRectMake(0, 28, tableView.frame.width, 0.5))
-        
+        let lineView = UIView(frame: CGRectMake(0, 28, tableView.frame.width, 0.4))
         lineView.backgroundColor = black
         
         let dateLabel = UILabel(frame: CGRectMake(10, 0, tableView.frame.width - 10, 27.0))

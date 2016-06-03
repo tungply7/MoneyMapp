@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FC49C58209FCE6027BA0E97 /* Pods_MoneyMapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269B237EF3720CD008B20456 /* Pods_MoneyMapp.framework */; };
 		460FE7641D00C27D0038EEB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FE7631D00C27D0038EEB5 /* AppDelegate.swift */; };
 		460FE7691D00C27D0038EEB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460FE7671D00C27D0038EEB5 /* Main.storyboard */; };
 		460FE76C1D00C27D0038EEB5 /* MoneyMapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 460FE76A1D00C27D0038EEB5 /* MoneyMapp.xcdatamodeld */; };
 		460FE76E1D00C27D0038EEB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460FE76D1D00C27D0038EEB5 /* Assets.xcassets */; };
-		460FE7711D00C27D0038EEB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460FE76F1D00C27D0038EEB5 /* LaunchScreen.storyboard */; };
 		460FE77C1D00C27D0038EEB5 /* MoneyMappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FE77B1D00C27D0038EEB5 /* MoneyMappTests.swift */; };
 		460FE7871D00C27E0038EEB5 /* MoneyMappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FE7861D00C27E0038EEB5 /* MoneyMappUITests.swift */; };
 		460FE7961D00C2BD0038EEB5 /* Material.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FE7951D00C2BD0038EEB5 /* Material.swift */; };
@@ -24,6 +24,7 @@
 		460FE7A81D00C3E10038EEB5 /* BannedCharsTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FE7A61D00C3E10038EEB5 /* BannedCharsTextField.swift */; };
 		460FE7AB1D00C48B0038EEB5 /* Expense+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FE7A91D00C48B0038EEB5 /* Expense+CoreDataProperties.swift */; };
 		460FE7AC1D00C48B0038EEB5 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FE7AA1D00C48B0038EEB5 /* Expense.swift */; };
+		4658515F1D013E1E005D4343 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4658515E1D013E1E005D4343 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,12 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		025E9268185E48A968D9D3D9 /* Pods-MoneyMapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyMapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyMapp/Pods-MoneyMapp.debug.xcconfig"; sourceTree = "<group>"; };
+		0F1AED792DF1CEC0043E4C4B /* Pods_MoneyMappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyMappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		184A1167FABF48B900230FD4 /* Pods_MoneyMappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyMappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		269B237EF3720CD008B20456 /* Pods_MoneyMapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyMapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A1DA4A01A508606655527E /* Pods-MoneyMapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyMapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyMapp/Pods-MoneyMapp.release.xcconfig"; sourceTree = "<group>"; };
 		460FE7601D00C27D0038EEB5 /* MoneyMapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyMapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		460FE7631D00C27D0038EEB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		460FE7681D00C27D0038EEB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		460FE76B1D00C27D0038EEB5 /* MoneyMapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoneyMapp.xcdatamodel; sourceTree = "<group>"; };
 		460FE76D1D00C27D0038EEB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		460FE7701D00C27D0038EEB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		460FE7721D00C27D0038EEB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		460FE7771D00C27D0038EEB5 /* MoneyMappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyMappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		460FE77B1D00C27D0038EEB5 /* MoneyMappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyMappTests.swift; sourceTree = "<group>"; };
@@ -67,6 +72,7 @@
 		460FE7A61D00C3E10038EEB5 /* BannedCharsTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannedCharsTextField.swift; sourceTree = "<group>"; };
 		460FE7A91D00C48B0038EEB5 /* Expense+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Expense+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		460FE7AA1D00C48B0038EEB5 /* Expense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		4658515E1D013E1E005D4343 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FC49C58209FCE6027BA0E97 /* Pods_MoneyMapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +101,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1282C643005421570D11493E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				025E9268185E48A968D9D3D9 /* Pods-MoneyMapp.debug.xcconfig */,
+				27A1DA4A01A508606655527E /* Pods-MoneyMapp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		460FE7571D00C27D0038EEB5 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +117,8 @@
 				460FE77A1D00C27D0038EEB5 /* MoneyMappTests */,
 				460FE7851D00C27E0038EEB5 /* MoneyMappUITests */,
 				460FE7611D00C27D0038EEB5 /* Products */,
+				1282C643005421570D11493E /* Pods */,
+				94DA25E548E5C18D8661F79F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,7 +187,7 @@
 			children = (
 				460FE7671D00C27D0038EEB5 /* Main.storyboard */,
 				460FE76D1D00C27D0038EEB5 /* Assets.xcassets */,
-				460FE76F1D00C27D0038EEB5 /* LaunchScreen.storyboard */,
+				4658515E1D013E1E005D4343 /* Launch Screen.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -195,6 +213,16 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		94DA25E548E5C18D8661F79F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				269B237EF3720CD008B20456 /* Pods_MoneyMapp.framework */,
+				184A1167FABF48B900230FD4 /* Pods_MoneyMappTests.framework */,
+				0F1AED792DF1CEC0043E4C4B /* Pods_MoneyMappUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -202,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 460FE78B1D00C27E0038EEB5 /* Build configuration list for PBXNativeTarget "MoneyMapp" */;
 			buildPhases = (
+				6FBF7B2A7C8D53B768908D38 /* [CP] Check Pods Manifest.lock */,
 				460FE75C1D00C27D0038EEB5 /* Sources */,
 				460FE75D1D00C27D0038EEB5 /* Frameworks */,
 				460FE75E1D00C27D0038EEB5 /* Resources */,
+				CAEF8D2051805CCAFBEE2698 /* [CP] Embed Pods Frameworks */,
+				5093EE6FA854E13EDA733690 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,9 +250,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 460FE78E1D00C27E0038EEB5 /* Build configuration list for PBXNativeTarget "MoneyMappTests" */;
 			buildPhases = (
+				3BD51AAEF74632814F3ACFC7 /* [CP] Check Pods Manifest.lock */,
 				460FE7731D00C27D0038EEB5 /* Sources */,
 				460FE7741D00C27D0038EEB5 /* Frameworks */,
 				460FE7751D00C27D0038EEB5 /* Resources */,
+				99DC41E73AF38BAFE1670B16 /* [CP] Embed Pods Frameworks */,
+				0CEC394692ABC0B6EF798933 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,9 +271,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 460FE7911D00C27E0038EEB5 /* Build configuration list for PBXNativeTarget "MoneyMappUITests" */;
 			buildPhases = (
+				CD1E6348839BCFCE8FF772D7 /* [CP] Check Pods Manifest.lock */,
 				460FE77E1D00C27E0038EEB5 /* Sources */,
 				460FE77F1D00C27E0038EEB5 /* Frameworks */,
 				460FE7801D00C27E0038EEB5 /* Resources */,
+				D45D5159CBD7B3F45853E69B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -300,8 +336,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				460FE7711D00C27D0038EEB5 /* LaunchScreen.storyboard in Resources */,
 				460FE76E1D00C27D0038EEB5 /* Assets.xcassets in Resources */,
+				4658515F1D013E1E005D4343 /* Launch Screen.storyboard in Resources */,
 				460FE7691D00C27D0038EEB5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +357,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CEC394692ABC0B6EF798933 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoneyMappTests/Pods-MoneyMappTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BD51AAEF74632814F3ACFC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5093EE6FA854E13EDA733690 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoneyMapp/Pods-MoneyMapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FBF7B2A7C8D53B768908D38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		99DC41E73AF38BAFE1670B16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoneyMappTests/Pods-MoneyMappTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAEF8D2051805CCAFBEE2698 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoneyMapp/Pods-MoneyMapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD1E6348839BCFCE8FF772D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D45D5159CBD7B3F45853E69B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoneyMappUITests/Pods-MoneyMappUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		460FE75C1D00C27D0038EEB5 /* Sources */ = {
@@ -380,14 +539,6 @@
 				460FE7681D00C27D0038EEB5 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		460FE76F1D00C27D0038EEB5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				460FE7701D00C27D0038EEB5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -478,11 +629,12 @@
 		};
 		460FE78C1D00C27E0038EEB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 025E9268185E48A968D9D3D9 /* Pods-MoneyMapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MoneyMapp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TungLy.MoneyMapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -491,11 +643,12 @@
 		};
 		460FE78D1D00C27E0038EEB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27A1DA4A01A508606655527E /* Pods-MoneyMapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MoneyMapp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TungLy.MoneyMapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -569,6 +722,7 @@
 				460FE78D1D00C27E0038EEB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		460FE78E1D00C27E0038EEB5 /* Build configuration list for PBXNativeTarget "MoneyMappTests" */ = {
 			isa = XCConfigurationList;
@@ -577,6 +731,7 @@
 				460FE7901D00C27E0038EEB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		460FE7911D00C27E0038EEB5 /* Build configuration list for PBXNativeTarget "MoneyMappUITests" */ = {
 			isa = XCConfigurationList;
@@ -585,6 +740,7 @@
 				460FE7931D00C27E0038EEB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
